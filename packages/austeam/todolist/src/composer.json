@@ -1,0 +1,26 @@
+{
+    "name": "austeam/todolist",
+    "description": "You can create the to-do-list of your task.",
+    "authors": [
+        {
+            "name": "Austeam",
+            "email": "aus234@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^6.0@dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Austeam\\TodoList\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Austeam\\TodoList\\": "src/"
+        }
+    }
+}
